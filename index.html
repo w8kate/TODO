@@ -14,16 +14,16 @@
 		let defaultTodoList = [{name: 'Дело 1', done: true}, {name: 'Дело 2', done: false}, {name: 'Дело 3', done: false}]; // task 2
 
         document.addEventListener('DOMContentLoaded', function() {
-            createTodoApp(document.getElementById('todo-app'), 'Мои дела', defaultTodoList, "myKey"); // task 2, 3
+            createTodoApp(document.getElementById('todo-app'), 'Дела сотрудника №1', defaultTodoList, "employeeOneKey"); // task 2, 3
         });
     </script>
 </head>
 <body>
     <div class="container mb-5">
         <nav class="nav">
-			<a class="nav-link" href="index.html">Мои дела</a>
-			<a class="nav-link" href="mom.html">Дела мамы</a>
-            <a class="nav-link" href="dad.html">Дела папы</a>
+			<a class="nav-link" href="index.html">Дела сотрудника №1</a>
+			<a class="nav-link" href="employee-two.html">Дела сотрудника №2</a>
+            <a class="nav-link" href="employee-three.html">Дела сотрудника №3</a>
         </nav>
     </div>
     <div id="todo-app" class="container"></div>
